@@ -1,0 +1,90 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+.row{
+	flex-direction: row;
+}
+.row-reverse{
+	justify-content: row-reverse;
+}
+.jc-s-beetween{
+	justify-content: space-between;
+}
+.ac-f-start{
+	align-content: flex-start;
+}
+
+.ai-f-end{
+	align-items:flex-end;
+}
+.jc-f-start{
+	justify-content: flex-start;
+}
+.jc-f-end{
+	justify-content: flex-end;
+}
+
+.jc-s-between{
+	justify-content: space-between;
+}
+.jc-center{
+	justify-content: center;
+}
+.jc-s-around{
+	justify-content: space-around;
+}
+
+.ai-f-end{
+	align-self: flex-end;
+}
+.ai-f-start{
+	align-self: flex-start;
+}
+.as-auto{
+	align-self: auto;
+}
+.as-f-end{
+	align-self: flex-end;
+}
+
+img{
+	padding-top: 20px; 
+	width:100%;
+
+}
+nav{
+	display: flex;
+}
+.container-nav{
+	width: 100%;
+}
+
+.item-nav{
+	margin: 20px;
+	padding: 10px;
+	color: #5E6572;
+	font-size: 30px;
+	font-family: 'Hind Siliguri', sans-serif;
+	text-decoration: none;
+}
+
+.item-nav:hover{
+	color: #EEF1EF;
+}
+
+.container-cd{
+	display: flex;
+	width: 100%;
+}
+.container-album{
+	display: flex;
+	width: 100%;
+}
+
+.item-p{
+	font-family: 'Hind Siliguri', sans-serif;	
+}
